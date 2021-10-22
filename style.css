@@ -19,16 +19,18 @@ body{
     align-items: center;
     justify-content: center;
 }
-
+.formula_bar>*{
+    height: 70%;
+}
 .formula_bar>div{
     margin: 1rem;
 }
 
-.address_bar{
+.address_input{
     width: 4rem;
 }
 
-.formula_container{
+.formula_input{
     width: calc( 100vw - 10rem );
 }
 
