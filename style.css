@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu_bar{
+    background-color: lightblue;
+    height: 5rem;
+}
+
+.formula_bar{
+    background-color: lightpink;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formula_bar>div{
+    margin: 1rem;
+}
+
+.address_bar{
+    width: 4rem;
+}
+
+.formula_container{
+    width: calc( 100vw - 10rem );
+}
+
+.sheets_container{
+    background-color: lightgoldenrodyellow;
+    height: 2.5rem;
+}
+
+/* grid-css */
+.grid_container{
+    background-color: lightgreen;
+    height: calc( 100vh - ( 5rem + 2rem + 2.5rem ) );
+    overflow: auto;
+}
+
+.top_row{
+    display: flex;
+    position: relative;
+    top: -2rem;
+    left: 2rem;
+}
+
+.top_row .cell{
+    text-align: center;
+    min-width: 5rem;
+}
+
+.left_col{
+    width: 2rem;
+    text-align: center;
+    position: relative;
+    top: -1.9rem;
+}
+
+.cell{
+    border: 0.5px solid grey;
+    height: 2rem;
+    text-align: center;
+}
+
+.top_left_cell{
+    height: 2rem;
+    width: 2rem;
+    background-color: lightgray;
+}
+
+.row{
+    display: flex;
+}
+
+.grid .cell{
+    min-width: 5rem;
+}
+
+.grid_container{
+    position: relative;
+}
+
+.grid{
+    position: absolute;
+    top: 2.1rem;
+    left: 2rem;
+}
